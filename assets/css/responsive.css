@@ -1,0 +1,71 @@
+/* Large Screen Start*/
+@media (min-width: 992px) and (max-width:1199px) {
+    
+}
+/* Large Screen End */
+
+
+
+/* Miduam Screen Start*/
+
+@media (min-width: 768px) and (max-width:991px){
+    
+    
+    
+    
+}
+
+/* Miduam Screen End */
+
+
+
+/* Small Scree Start*/
+@media (min-width:576px) and (max-width:767px) {
+    /* Common Section Start */
+    .btn1{
+        padding: 13px 20px;
+    }
+    /* Common Section End */
+
+    /* Banner Section Start */
+    #banner{
+        height: 100px !important; 
+    }
+    /* Banner Section End */
+
+
+    /* BestSeller Section Start */
+    
+
+    /* BestSeller Section End */
+
+    /* Promotion Section Start */
+    #promotion{
+        margin-bottom: -500px;
+        position: relative;
+        z-index: 10001;
+    }
+    #promotion .promotionContent{
+        padding: 0;
+        border-right: none;
+    }
+    /* Promotion Section End */
+}
+
+/* Small Screen End */
+
+
+/* Extra Small Screen */
+@media (min-width:0) and (max-width:575px) {
+    #promotion{
+        margin-bottom: -500px;
+        position: relative;
+        z-index: 10001;
+    }
+    #promotion .promotionContent{
+        padding: 0;
+        border-right: none;
+    }
+}
+
+/* Extra Small Screen End */
