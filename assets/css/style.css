@@ -1737,6 +1737,8 @@ ol,ul{
     color: var(--commonColor);
     position: relative;
     z-index: 1000001;
+@media quary (< 0px width =>768px){
+    width: 300px;
 }
 #newsletter .newletterWapper h3{
     font-size: 36px;
